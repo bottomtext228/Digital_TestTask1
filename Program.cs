@@ -1,13 +1,6 @@
 ﻿using System.Net;
 
 
-/* var ips = new string[]
-{
-    "1.2.3.5",
-    "1.2.3.4",
-    "1.2.3.9"
-}; */
-
 
 var ips = File.ReadAllLines("data.txt"); 
 
